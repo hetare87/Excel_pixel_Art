@@ -14,7 +14,7 @@ Option Explicit
 '環境によって動かない、動作が遅いなどあればすいません。
 '========================================================
 
-#If VBA7 Then
+#If Win64 Then
     ' 64bit / 32bit (VBA7) 共通
     Private Type GdiplusStartupInput
         GdiplusVersion As Long
